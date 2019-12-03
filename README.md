@@ -1,4 +1,4 @@
-# MobileNumberTracker
+# GarageService
 
 Android app to manage Garage door using QR codes
 
