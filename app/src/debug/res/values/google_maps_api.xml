@@ -1,0 +1,21 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=CB:37:CE:DD:E6:3C:0B:4B:3D:DE:41:B1:64:89:60:2E:68:D2:B1:65%3Bcom.garageservice.app
+
+    You can also add your credentials to an existing key, using this line:
+    CB:37:CE:DD:E6:3C:0B:4B:3D:DE:41:B1:64:89:60:2E:68:D2:B1:65;com.garageservice.app
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyBlOid1tQX7ILWVDKCW0OoE9amnNxCyE4M
+    </string>
+</resources>

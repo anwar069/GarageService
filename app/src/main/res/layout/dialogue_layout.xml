@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_light_background"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llInfo"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/face"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/lltransparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#AA000000"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:id="@+id/ivPopUpPic"
+                            android:layout_width="0dp"
+                            android:layout_height="70dp"
+                            android:layout_weight="0.2"
+                            android:background="@drawable/face" />
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.8"
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp">
+
+
+                            <TextView
+                                android:id="@+id/tvPopName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Ahmed Anwar"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                android:textColor="@color/cardview_light_background" />
+
+                            <TextView
+                                android:id="@+id/tvPopLocation"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Bangalore, Karanataka"
+                                android:textColor="@color/cardview_light_background" />
+                            <TextView
+                                android:id="@+id/tvPopCountry"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="India"
+                                android:textColor="@color/cardview_light_background" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <!--<TextView-->
+                    <!--android:id="@+id/tvPopNumber"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="+918446167645"-->
+                    <!--android:textAppearance="@style/TextAppearance.AppCompat.Medium"-->
+                    <!--android:textColor="@color/cardview_dark_background" />-->
+                <TextView
+                    android:id="@+id/tvPopType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

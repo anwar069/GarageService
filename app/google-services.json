@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "285536851377",
+    "project_id": "firebase-garageservice"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285536851377:android:b7f4462c5414df15",
+        "android_client_info": {
+          "package_name": "com.garageservice.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285536851377-0ours99mh72shcecl562nehl7ggtn1qf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.garageservice.app",
+            "certificate_hash": "CB37CEDDE63C0B4B3DDE41B16489602E68D2B165"
+          }
+        },
+        {
+          "client_id": "285536851377-dats1ilq2ovn2kao5mi2ekbl6k9cn14n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDstcH3Fm8Jv1QanJ0eg-IFmYtArAkBJsQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
